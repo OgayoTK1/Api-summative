@@ -33,8 +33,8 @@ This is a sleek and efficient Currency Converter web application designed to pro
 1.  **Clone the Repository:**
 
     ```bash
-    git clone [repository_url]
-    cd [repository_name]
+    git clone https://github.com/OgayoTK1/Api-summative/
+    cd Api-summative
     ```
 
 2.  **Open `index.html`:**
@@ -52,7 +52,7 @@ This is a sleek and efficient Currency Converter web application designed to pro
 ## 🔑 API Key
 
 -   This application utilizes the ExchangeRate-API for fetching current exchange rates.
--   **Important:** Replace `'fcf0919d58d0cd6f03f2cd0b'` in `App.js` with your own API key to ensure proper functionality.
+-   **Important:** Get your Api own API Key  Replace `''` in `App.js` with your own API key to ensure proper functionality.
 -   You can obtain your free API key at: [ExchangeRate-API](https://www.exchangerate-api.com/).
 
 ## 🎬 Demo Video
