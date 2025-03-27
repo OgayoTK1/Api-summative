@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Currency Exchange App</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Improved CDN link with integrity and crossorigin for security -->
+    <link 
+      rel="stylesheet" 
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-..." 
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>Currency Exchange</header>
+      <form action="#" autocomplete="off">
+        <div class="amount">
+          <p>Enter Amount</p>
+          <input 
+            type="number" 
+            value="1" 
+            min="0" 
+            step="0.01" 
+            inputmode="decimal" 
+            pattern="[0-9]*"
+          >
+        </div>
+        <div class="drop-list">
+          <div class="from">
+            <p>From</p>
+            <div class="select-box">
+              <img src="https://flagcdn.com/48x36/us.png" alt="flag">
+              <select aria-label="From Currency"> 
+                <!-- Options tag are inserted from JavaScript --> 
+              </select>
+            </div>
+          </div>
+          <div class="icon" role="button" aria-label="Swap Currencies">
+            <i class="fas fa-exchange-alt"></i>
+          </div>
+          <div class="to">
+            <p>To</p>
+            <div class="select-box">
+              <img src="https://flagcdn.com/48x36/af.png" alt="flag">
+              <select aria-label="To Currency"> 
+                <!-- Options tag are inserted from JavaScript --> 
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="exchange-rate" aria-live="polite">Getting exchange rate...</div>
+        <button type="button" id="exchange-btn">Get Exchange Rate</button>
+      </form>
+      <div class="footer">
+        <a 
+          class="footer-text" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          href="https://OgayoAndrew.net/"
+        >
+          By OgayoAndrew
+        </a>
+      </div>
+    </div>
+
+    <!-- External JavaScript Files -->
+    <script src="country-list.js" defer></script> <!-- Country List -->
+    <script src="App.js" defer></script> <!-- Main Logic -->
+  </body>
+</html>
