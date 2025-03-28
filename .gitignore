@@ -1,0 +1,14 @@
+# OS and Editor Temporary Files
+Thumbs.db # Windows
+
+# Node.js 
+node_modules/
+package-lock.json
+
+# API Keys and Sensitive Data
+.env
+*.env.*
+config/keys.js 
+
+# Log Files
+*.log
