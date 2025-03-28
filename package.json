@@ -1,0 +1,22 @@
+{
+  "name": "Currency-Converter-App",
+  "version": "1.0.0",
+  "description": "This is a sleek and efficient Currency Converter web application designed to provide users with real-time exchange rates.",
+  "main": "App.js",
+  "scripts": {
+    "start": "node App.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OgayoTK1/Api-summative.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OgayoTK1/Api-summative/issues"
+  },
+  "homepage": "https://github.com/OgayoTK1/Api-summative#readme"
+}
+
