@@ -57,7 +57,7 @@ This is a sleek and efficient Currency Converter web application designed to pro
 
 ## 🎬 Demo Video
 
--   **Watch the Demo Video:** [https://www.loom.com/share/7d86fba6248e42d08deea456bca8ccda?sid=4190d163-2207-47d8-8c31-eb4b7d36b1fc]
+-   **Watch the Demo Video:** [https://www.loom.com/share/7d86fba6248e42d08deea456bca8ccda?sid=35b04287-c35e-4d5b-a8e3-8c4ce490da78]
 
     This video showcases the application's key features and demonstrates its ease of use, both locally and when deployed via the load balancer.
 
