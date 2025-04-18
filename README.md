@@ -33,7 +33,7 @@ This is a sleek and efficient Currency Converter web application designed to pro
 1.  **Clone the Repository:**
 
     ```bash
-    git clone [https://github.com/OgayoTK1/Api-summative/](https://github.com/OgayoTK1/Api-summative/)
+    git clone https://github.com/OgayoTK1/Api-summative/
     cd Api-summative
     ```
 
